@@ -1,0 +1,27 @@
+{
+  "name": "create-metaliq-spa",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "install": "metaliq build",
+    "start": "metaliq run",
+    "build": "metaliq build"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@metaliq/up": "^0.2.0",
+    "lit": "^2.0.0",
+    "metaliq": "^0.4.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "eslint": "^7.10.0",
+    "eslint-config-standard-with-typescript": "^19.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "typescript": "^4.3.5"
+  }
+}
