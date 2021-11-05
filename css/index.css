@@ -1,16 +1,16 @@
 * {
 	box-sizing: border-box;
+	font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
 }
 
 .mq-form {
-	font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
 	padding: 10px 20px;
 }
 
 .mq-label {
 	display: block;
 	padding: 10px 0;
-	font-size: 14px;
 }
 
 .mq-input {
