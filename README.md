@@ -41,9 +41,17 @@ metaliq build
 metaliq build contactSpec
 ```
 
+Metaliq includes a simple server for testing production builds.
+
+```shell
+metaliq serve www
+```
+
+Your production server should publish the directory configured in the specification's publication terms - `www` by default.
+
 ### Customise and develop
 
-Start by changing the `name` field in `package.json` and pushing to a new repository.
+Start by changing the `name` field in `package.json`, making a new README to replace this file, and pushing to a new repository.
 Then follow the patterns in the samples and online to define data types, design views and create meta-specs.
 
 See the main `metaliq` repo for more details:
