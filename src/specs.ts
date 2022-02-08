@@ -2,7 +2,6 @@ import { MetaSpec } from "metaliq"
 import { max, notBlank } from "metaliq/lib/policies/validation/constraints/foundation"
 import { isEmail, isPhoneNumber } from "metaliq/lib/policies/validation/constraints/business"
 import { metaView } from "metaliq/lib/policies/presentation/presentation"
-import { allFieldViews } from "metaliq/lib/policies/presentation/widgets"
 
 import { Contact, HelloWorld } from "./types"
 import { greetMeView } from "./views"
@@ -45,6 +44,5 @@ export const contactSpec: MetaSpec<Contact> = {
       label: "Age if under 18",
       validator: max(17, "Age only needed for minors")
     }
-  },
-  view: allFieldViews
+  }
 }
