@@ -1,5 +1,5 @@
 {
-  "name": "create-metaliq-spa",
+  "name": "@metaliq/init-spa",
   "version": "0.2.0",
   "description": "",
   "scripts": {
