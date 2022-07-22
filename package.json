@@ -11,9 +11,15 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "@babel/core": "^7.18.9",
     "@metaliq/up": "^0.6.0",
+    "@milkdown/core": "^6.3.0",
+    "@milkdown/prose": "^6.3.0",
     "lit": "^2.0.0",
-    "metaliq": "^0.28.1"
+    "metaliq": "^0.28.1",
+    "prosemirror-model": "^1.18.1",
+    "prosemirror-view": "^1.26.5",
+    "vfile": "^5.3.4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.4.0",

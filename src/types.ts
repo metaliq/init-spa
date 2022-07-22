@@ -9,3 +9,7 @@ export type Contact = {
   phone: string
   age: number
 }
+
+export type App = {
+  content: string
+}

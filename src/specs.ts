@@ -1,20 +1,24 @@
+import { hello } from "./process"
 import { MetaSpec } from "metaliq"
 import { max, notBlank } from "metaliq/lib/policies/validation/constraints/foundation"
 import { isEmail, isPhoneNumber } from "metaliq/lib/policies/validation/constraints/business"
 
-import { Contact, HelloWorld } from "./types"
+import { App, Contact } from "./types"
 import { greetMeView } from "./views"
 import { metaForm } from "metaliq/lib/policies/presentation/widgets"
+import { milkdown } from "./milkdown"
 
 // Reference the policy with an export if not specifically importing from it, to include it in type checking
 export { TerminologySpec } from "metaliq/lib/policies/terminology/terminology"
+
+console.log(hello)
 
 /**
  * The default application spec shows a simple (but interactive) "Hello, World!" view.
  * Run with the command `metaliq run`.
  */
-export const appSpec: MetaSpec<HelloWorld> = {
-  view: greetMeView
+export const appSpec: MetaSpec<App> = {
+  view: milkdown
 }
 
 /**
@@ -47,3 +51,5 @@ export const contactSpec: MetaSpec<Contact> = {
   },
   view: metaForm()
 }
+
+
